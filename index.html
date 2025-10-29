@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://code.jquery.com/jquery-2.7.1.min.js"
+    integrity="sha256-/JqT2SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="javas1.js"></script>
+    
+
+</head>
+
+<body>
+
+<div class="container-fluid bg-blue" id="home">
+    <!-- navbar -->
+    <div class="navbar navbar-expand-md">
+        <!-- LOGO -->
+        <div class="navbar-brand ms-3 d-flex justify-content-center align-items-center rounded-3 border-1 border border-white p-1">
+            <div><img src="images/uc-logo1.png" alt="" class="img-fluid mb-1" height="40" width="40"></div>
+        </div>
+        <!-- MOBILE DEVICE -->
+         <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </div>
+         <!-- LINKS -->
+          <div class="collapse navbar-collapse  justify-content-end align-items-center " id="mobile">
+            <div class="navbar-nav fw-bold me-5">
+                <div class="nav-item">
+                    <div><a href="#home" class="nav-link active fs-8">Home</a></div>
+                </div>
+                <div class="nav-item">
+                    <div><a href="#about" class="nav-link fs-8">About</a></div>
+                </div>
+                <div class="nav-item">
+                    <div><a href="#skills" class="nav-link fs-8">skills</a></div>
+                </div>
+                <div class="nav-item">
+                    <div><a href="#projects" class="nav-link fs-8">Projects</a></div>
+                </div>
+                <div class="nav-item">
+                    <div><a href="#contacts" class="nav-link fs-8">Contact</a></div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <!-- HERO SECTION -->
+ <div class="container" >
+    <div class="row justify-content-around align-items-center">
+        <div class="col-md-5">
+            <div class="fw-bolder my-2 p-0">
+                <p class="m-0 p-0 text-white fw-bold fs-2">UCHECHUKWU</p>
+                <p class="m-0 p-0 text-white fw-bold fs-2">CHRISTIAN.</p>
+                <p class="m-0 p-0 text-primary fs-4">I provide tech solutions</p>
+            </div>
+            <div class="w-100">
+                <div class="carousel slide" id="slide1" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                        <p class="fs-8 text-black ff">
+                            I believe in the transformative power of digital solutions. My experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape. 
+                        </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                        <p class="fs-8 text-black ff">
+                            From captivating web design to data-driven marketing strategies, I'm committed to delivering results that exceed expectations 
+                        </p>
+                </div>
+            </div>
+            <div class="d-flex gap-3">
+            <a href="#projects" class="btn btn-primary btn-sm px-4 py-2 rounded-pill fw-bold hero-btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-sm px-4 py-2 rounded-pill fw-bold hero-btn-outline">Get in Touch</a>
+          </div>
+        </div>
+            </div>
+        </div>
+        <div class="col-md-5 text-center">
+        <img src="images/uc-hero1.png" alt="UC Hero" class="img-fluid rounded shadow-lg hero-img">
+      </div>
+    </div>
+ </div>
+</div>
+
+<!-- ABOUT SECTION -->
+<div class="container-fluid py-5 bg-light" id="about">
+  <div class="container shadow-lg rounded-4 p-5 bg-white">
+    <!-- Section Header -->
+    <div class="text-center mb-5">
+      <h3 class="fw-bold mb-2">
+        About Me <span class="text-primary">::</span>
+      </h3>
+      <div class="mx-auto" style="width: 90px; height: 3px; background-color: #0d6efd;"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="row justify-content-center align-items-center g-4">
+      <!-- Image -->
+      <div class="col-md-5 text-center">
+        <div class="about-img-wrapper rounded-4 overflow-hidden shadow-sm">
+          <img src="images/uc-hero1.png" alt="Uchechukwu Christian" class="img-fluid about-img">
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="col-md-6">
+        <div class="about-text text-secondary fs-6">
+          <p>
+            I am a <span class="text-primary fw-bold">Full-Stack Web and Mobile App Developer</span> with a passion for building modern, user-focused digital experiences. My expertise spans both front-end and back-end development, enabling me to create functional and visually appealing applications.
+          </p>
+
+          <p class="mb-2">I have hands-on experience in:</p>
+          <ul class="ps-3 mb-3">
+            <li><strong>Front-End:</strong> HTML, CSS, Bootstrap, JavaScript, React.js, Tailwind, jQuery</li>
+            <li><strong>Back-End:</strong> PHP, MySQL, Node.js, Express.js, MongoDB, API Integration</li>
+            <li><strong>Mobile Development:</strong> Flutter & Dart for cross-platform apps</li>
+            <li><strong>Version Control:</strong> Git & GitHub for collaborative development</li>
+          </ul>
+
+          <p>
+            I’m dedicated to writing clean, maintainable code and following best practices in UI/UX, database design, and performance optimization. My goal is to transform ideas into high-performing products that solve real-world problems.
+          </p>
+          <p>
+            Beyond coding, I’m constantly learning and collaborating on innovative projects that inspire creativity, problem-solving, and growth.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div class="container-fluid mt-5 p-2 " id="skills">
+    <div class="text-center mb-5">
+      <h3 class="fw-bold mb-2">
+        Skills <span class="text-primary">::</span>
+      </h3>
+      <div class="mx-auto" style="width: 70px; height: 3px; background-color: #0d6efd;"></div>
+    </div>  
+   <!-- Skills Section -->
+<div class="container py-2">
+  <div class="row justify-content-center align-items-start g-3">
+    <!-- FRONT-END -->
+    <div class="col-md-4  rounded-4 p-3 shadow-sm">
+      <h4 class="fw-bold text-primary mb-3 text-center">
+        <i class="fa-solid fa-code me-2"></i> Front-End
+      </h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <div class="skill-box">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML5</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-react"></i>
+          <p>React</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-solid fa-wind"></i>
+          <p>Tailwind</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BACK-END -->
+    <div class="col-md-4 mx-3  rounded-4 p-3 shadow-sm">
+      <h4 class="fw-bold text-primary mb-3 text-center">
+        <i class="fa-solid fa-server me-2"></i> Back-End
+      </h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <div class="skill-box">
+          <i class="fa-brands fa-php"></i>
+          <p>PHP</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-solid fa-database"></i>
+          <p>MySQL</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-laravel"></i>
+          <p>Laravel</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-github"></i>
+          <p>Git & GitHub</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-solid fa-server"></i>
+          <p>Databases</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE APP -->
+    <div class="col-md-3  rounded-4 p-3 shadow-sm">
+      <h4 class="fw-bold text-primary mb-3 text-center">
+        <i class="fa-solid fa-mobile-screen me-2"></i> Mobile App
+      </h4>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <div class="skill-box">
+          <i class="fa-brands fa-dart-lang"></i>
+          <p>Dart</p>
+        </div>
+        <div class="skill-box">
+          <i class="fa-brands fa-flutter"></i>
+          <p>Flutter</p>
+        </div>
+        <div class="skill-box">
+          <img src="images/firebase2.png" alt="Firebase" height="25" width="25" class="mb-1" />
+          <p>Firebase</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Projects Section -->
+<div class="container py-5" id="projects">
+  <!-- Section Header -->
+  <div class="text-center mb-4">
+    <h3 class="fw-bold text-dark mb-2">
+      Projects <span class="text-primary">::</span>
+    </h3>
+    <div class="mx-auto" style="width: 80px; height: 3px; background-color: #0d6efd;"></div>
+  </div>
+
+  <!-- Projects Grid -->
+  <div class="row justify-content-center g-4" >
+    <!-- Project Card -->
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-1.jpg" alt="Logistics Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Logistics Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-6.jpg" alt="Portfolio Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Portfolio Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-2.jpg" alt="Personify" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Personify</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-6.jpg" alt="Portfolio Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Portfolio Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-3.jpg" alt="Restaurant Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Restaurant Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-7.jpg" alt="Restaurant Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Solar Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-4.jpg" alt="Hotel Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Hotel Website</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="project-card">
+        <img src="images/project-5.jpg" alt="Solar Website" class="img-fluid rounded">
+        <div class="project-overlay">
+          <h6>Solar Website</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<div class="container-fluid py-5 bg-dark text-white" id="contacts">
+  <!-- Section Header -->
+  <div class="text-center mb-5">
+    <h3 class="fw-bold mb-2">
+      Get In Touch <span class="text-primary">::</span>
+    </h3>
+    <div class="mx-auto" style="width: 90px; height: 3px; background-color: #0d6efd;"></div>
+  </div>
+
+  <!-- Contact Content -->
+  <div class="row justify-content-around align-items-start px-md-5">
+    <!-- Left Column: Info -->
+    <div class="col-md-5 mb-4 mb-md-0">
+      <h4 class="fw-bold mb-3">Let's Work Together</h4>
+      <p class="text-light mb-4" style="opacity: 0.85;">
+        Whether you have a project in mind, need assistance with your existing application, 
+        or just want to say hello — I'm always open to collaboration. Reach out using the form 
+        or connect through my social channels.
+      </p>
+
+      <!-- Contact Info -->
+      <div class="mb-4">
+        <p class="fw-bold mb-1 text-primary">Email:</p>
+        <p class="text-light small">uchextian001@gmail.com</p>
+        <p class="fw-bold mb-1 text-primary">Phone:</p>
+        <p class="text-light small">+234 813 908 7781</p>
+      </div>
+
+      <!-- Social Media -->
+      <div class="d-flex gap-3 mt-3">
+        <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <!-- Right Column: Contact Form -->
+    <div class="col-md-5">
+      <form class="p-4 bg-light text-dark rounded-4 shadow-lg">
+        <div class="mb-3">
+          <label for="name" class="form-label fw-bold text-primary">Name</label>
+          <input type="text" id="name" class="form-control form-control-sm rounded-3" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label fw-bold text-primary">Email</label>
+          <input type="email" id="email" class="form-control form-control-sm rounded-3" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label fw-bold text-primary">Message</label>
+          <textarea id="message" rows="4" class="form-control form-control-sm rounded-3" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary fw-bold rounded-3 px-4 py-2">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+ <!-- FOOTER -->
+<footer class="container-fluid bg-dark text-light py-3">
+  <div class="container text-center">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0 small text-secondary">
+        © 2025 <span class="text-primary fw-bold">Uchechukwu Christian</span>. All rights reserved.
+      </p>
+
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="text-secondary hover-primary fs-6"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="text-secondary hover-primary fs-6"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-secondary hover-primary fs-6"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="text-secondary hover-primary fs-6"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+<a href="#home" class="btn btn-primary btn-lg rounded-circle d-flex justify-content-center align-items-center"
+   id="backToTop" role="button" aria-label="Scroll to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha284-YvpcrYf0tY2lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
